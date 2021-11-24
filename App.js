@@ -1,15 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import Navigator from './navigation/Navigator';
+import Navegador from './navigation/Navegador';
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Navigator/>
+    <>
+      <Navegador/>
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
 
