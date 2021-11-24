@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import React from 'react';
 
-export default function App() {
+export default function Functions() {
   return (
     <View style={styles.container}>
       <Text>Functions</Text>
